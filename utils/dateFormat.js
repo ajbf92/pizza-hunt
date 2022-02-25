@@ -82,6 +82,15 @@ module.exports = (
   }
 
   const minutes = dateObj.getMinutes();
+  // let minutes;
+  // if (dateObj.getMinutes < 10) {
+  //   console.log(dateObj.getMinutes)
+  //   minutes = (0 + dateObj.getMinutes);
+  //   console.log(minutes)
+  // } else {
+  //   console.log(dateObj.getMinutes)
+  //   minutes = dateObj.getMinutes();
+  // }
 
   // set `am` or `pm`
   let periodOfDay;
