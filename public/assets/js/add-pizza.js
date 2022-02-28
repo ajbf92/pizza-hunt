@@ -68,6 +68,8 @@ const handlePizzaSubmit = event => {
     })
     .catch(err => {
       console.log(err);
+      // references the idb.js file. Used to store info when there is no internet connection
+      saveRecord(formData);
     });
 };
 
